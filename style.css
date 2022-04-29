@@ -37,10 +37,14 @@ body {
     text-decoration: none;
 }
 
-a:visited {
+.mainlink:visited {
     color: black;
 }
 
 .app {
     padding-bottom: 1em;
+}
+
+.applink {
+    color: black;
 }
