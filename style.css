@@ -27,9 +27,10 @@ body {
     height:60vh;
     background: url(img/portrait-small.jpg) no-repeat center;
     background-size: contain;
+    margin: 1.5em;
 }
 
-a {
+.mainlink {
     color: black;
     font-size: 1.5em;
     padding: 1em;
@@ -38,4 +39,8 @@ a {
 
 a:visited {
     color: black;
+}
+
+.app {
+    padding-bottom: 1em;
 }
