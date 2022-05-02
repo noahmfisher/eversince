@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#mangaClick").click(function(){
+        $("#mangaApps").slideToggle();
+    });
+});
+$(document).ready(function(){
+    $("#animeClick").click(function(){
+        $("#animeApps").slideToggle();
+    });
+});

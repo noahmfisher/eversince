@@ -6,37 +6,59 @@
         <title>OPEN SYMBOLS (PLAY) BE IN YOUR MIND</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
         <meta name="robots" content="noindex"> 
+        
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>        <script src="https://kit.fontawesome.com/570f290fdb.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
     </head>
     <body>
         <div class="container">
-            <img src="img/portrait-small.jpg" class="portrait" />
+            <div class="portrait"></div>
 
-            <a href="https://hymn.opensymbols.xyz/" class="mainlink">be in your mind</a>
+            <p class="mainlink"><a href="https://hex.opensymbols.xyz/">open symbols</a> - <a href="https://hymn.opensymbols.xyz/">be in your mind</a></p>
 
             <div class="apps">
-                <div class="app">
-                    <h3>Panels - iOS</h3>
-                    <p>Monthly Subscription Fee ($1.49)</p>
-                    <p><a class="applink" href="https://apps.apple.com/us/app/panels-comic-reader/id1236567663">Link</a></p>
+                <button class="sectionClick" id="mangaClick">Manga<i class="fa-solid fa-angle-down fa-2xs"></i></button>
+                <div id="mangaApps">
+                    <div class="app">
+                        <h3>Panels - iOS</h3>
+                        <p>Monthly Subscription Fee ($1.49)</p>
+                        <p><a class="applink" href="https://apps.apple.com/us/app/panels-comic-reader/id1236567663">Link</a></p>
+                    </div>
+                    <div class="app">
+                        <h3>Klutter - iOS, Android</h3>
+                        <p>Free</p>
+                        <p><a class="applink" href="https://github.com/frameset/klutter">Link</a></p>
+                    </div>
+                    <div class="app">
+                        <h3>Paperback - iOS</h3>
+                        <p>Free</p>
+                        <p><a class="applink" href="https://paperback.moe/">Link</a>, not available through app store</p>
+                    </div>
+                    <div class="app">
+                        <h3>Taciyomi - Android</h3>
+                        <p>Free</p>
+                        <p><a class="applink" href="https://tachiyomi.org/">Link</a>, not available through app store</p>
+                    </div>
                 </div>
-                <div class="app">
-                    <h3>Klutter - iOS, Android</h3>
-                    <p>Free</p>
-                    <p><a class="applink" href="https://github.com/frameset/klutter">Link</a></p>
-                </div>
-                <div class="app">
-                    <h3>Paperback - iOS</h3>
-                    <p>Free</p>
-                    <p><a class="applink" href="https://paperback.moe/">Link</a>, not available through app store</p>
-                </div>
-                <div class="app">
-                    <h3>Taciyomi - Android</h3>
-                    <p>Free</p>
-                    <p><a class="applink" href="https://tachiyomi.org/">Link</a>, not available through app store</p>
+                <button class="sectionClick" id="animeClick">Anime <i class="fa-solid fa-angle-down fa-2xs"></i></button>
+                <div id="animeApps">
+                    <div class="app">
+                        <h3>Infuse - iOS</h3>
+                        <p>Monthly Subscription Fee ($0.99)</p>
+                        <p><a class="applink" href="https://apps.apple.com/app/id1136220934?mt=8">Link</a></p>
+                    </div>
+                    <div class="app">
+                        <h3>Jellyfin - iOS, Android</h3>
+                        <p>Free</p>
+                        <p><a class="applink" href="https://play.google.com/store/apps/details?id=org.jellyfin.mobile">Android</a> - <a class="applink" href="https://apps.apple.com/us/app/jellyfin-mobile/id1480192618">iOS</a></p>
+                    </div>
                 </div>
             </div>
         </div>
+
+
     </body>
 </html>
