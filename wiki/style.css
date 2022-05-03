@@ -43,6 +43,18 @@ body {
     flex-direction: column; 
 }
 
+.mainlink {
+    color: black;
+    font-size: 1.5em;
+    padding-top: .5em;
+    text-align: center;
+}
+
+.mainlink a {
+    text-decoration: underline;
+    color: black;
+}
+
 .group {
     margin-top: 1em;
     display: inline-flex;
@@ -53,14 +65,6 @@ body {
 
 .group h1 {
     margin-bottom: .25em;
-}
-
-.groupHr {
-    height: 1px;
-    background-color: lightgray;
-    border: none;
-    width: 50%;
-    margin-bottom: 1em;
 }
 
 .section {
@@ -96,7 +100,7 @@ body {
     border: none;
 
     font-size:1.25em;
-    margin-bottom: 1em;
+    margin-bottom: .25em;
 }
 
 .sectionClick i {
@@ -111,24 +115,49 @@ body {
     display: inline-flex;
 }
 
-.guideImg {
-    width: 100%;
-    height: auto;
-    margin: 1em 0 2em 0;
-}
-
 .bold {
     font-weight: 900;
 }
 
 /* Phone */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
+
+    .main {
+        width:100%;
+        height: auto;
+    }
+
+    .guideImg {
+        width: 100%;
+        height: auto;
+        margin: 1em 0 2em 0;
+    }
+
+    .group {
+        width: 100%;
+    }
+    
+    .groupHr {
+        height: 1px;
+        background-color: lightgray;
+        border: none;
+        width: 90%;
+        margin-bottom: 1em;
+    }
 }
 
 /* Web */
 
-@media (min-width: 601px) {
+@media (min-width: 801px) {
+
+
+    .guideImg {
+        width: 100%;
+        height: auto;
+        margin: 1em 0 2em 0;
+    }
+
     .main {
         width:30vw;
         height: auto;
@@ -137,4 +166,13 @@ body {
     .group {
         width: 100%;
     }
+
+    .groupHr {
+        height: 1px;
+        background-color: lightgray;
+        border: none;
+        width: 50%;
+        margin-bottom: 1em;
+    }
+
 }

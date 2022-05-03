@@ -29,4 +29,16 @@ $(document).ready(function(){
         .addClass("show");
         return false;
     });
+    
+    $('#webAClick').click(function() {
+        $('#aWeb').slideToggle('slow')
+        .addClass("show");
+        return false;
+    });
+    
+    $('#infuseAClick').click(function() {
+        $('#aInfuse').slideToggle('slow')
+        .addClass("show");
+        return false;
+    });
 });

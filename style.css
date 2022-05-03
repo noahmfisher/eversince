@@ -98,7 +98,7 @@ html {
 
 .apps {
     width:auto;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
 }
 
 
@@ -108,4 +108,8 @@ html {
 
 .applink {
     color: black;
+}
+
+.wiki {
+    margin-bottom: 2em;
 }
