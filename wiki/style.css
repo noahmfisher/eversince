@@ -23,12 +23,12 @@ body {
     width: 100%;
     overflow-x: hidden;
     
-    /* -webkit-animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
-    animation-fill-mode: both; */
+    animation-fill-mode: both;
 }
 
 .container {
@@ -46,7 +46,6 @@ body {
 .mainlink {
     color: black;
     font-size: 1.5em;
-    padding-top: .5em;
     text-align: center;
 }
 
@@ -64,7 +63,15 @@ body {
 }
 
 .group h1 {
-    margin-bottom: .25em;
+    margin-bottom: .4em;
+}
+
+.group h2 {
+    margin: .5em 0;
+}
+
+.groupText {
+    margin: .25em 0;
 }
 
 .section {
@@ -128,6 +135,17 @@ body {
         height: auto;
     }
 
+    .sidebar {
+        display:inline-flex;
+        flex-direction: row;
+        margin-top: 1em;
+        align-items: flex-start;
+    }
+
+    .sidebar a {
+        margin: 0 .25em;
+    }
+
     .guideImg {
         width: 100%;
         height: auto;
@@ -152,10 +170,21 @@ body {
 @media (min-width: 801px) {
 
 
+    .sidebar {
+        display:inline-flex;
+        flex-direction: column;
+        padding: 1em;
+        align-items: flex-start;
+        
+        position: fixed;
+        left: 2em;
+        top: 0;
+    }
+
     .guideImg {
-        width: 100%;
+        width: 80%;
         height: auto;
-        margin: 1em 0 2em 0;
+        margin: 1em 10% 2em 10%;
     }
 
     .main {

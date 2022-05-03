@@ -16,11 +16,20 @@
     <body>
         <div class="container">
 
-            <p class="mainlink"><a href="https://opensymbols.xyz/">home</a></p>
+            <div class="sidebar">
+                <p class="mainlink"><a href="../">home</a></p>
+                <p class="mainlink"><a href="#apps">apps</a></p>
+                <p class="mainlink"><a href="#info">info</a></p>
+            </div>
 
-            <div class="main">
+        <div class="main" id="apps">
             <div class="group" id="manga">
-                <h1>Manga</h1>
+                <h1>apps</h1>
+                <p>How to connect the server to mobile apps.</p>
+                
+                <p class="groupText">For Manga I recommend Panels (iOS) and Tachiyomi (Android).</p>
+                <p class="groupText">For Anime I recommend Infuse (iOS).</p>
+                <h2>manga</h2>
                 <hr class="groupHr"/>
                 <button class="sectionClick" id="webClick" href="#mWeb">Web<i class="fa-solid fa-angle-down fa-2xs"></i></button>
 
@@ -76,7 +85,7 @@
 
                 <div class="section hidden" id="mPaperback">
 
-                    <p>Go to <span class="bold">https://framboisepi.github.io/paperback-extensions/komga/</span></p>
+                    <p>Go to <span class="bold"><a href="https://framboisepi.github.io/paperback-extensions/komga/">https://framboisepi.github.io/paperback-extensions/komga/</a></span></p>
                     <p>Press <span class="bold">Add to Paperback</span></p>
 
                     <img class="guideImg" src="img/mpb1.png" /> 
@@ -149,7 +158,7 @@
             </div>
 
             <div class="group" id="anime">
-                <h1>Anime</h1>
+                <h2>anime</h2>
                 <hr class="groupHr"/>
                 <button class="sectionClick" id="webAClick" href="#aWeb">Web<i class="fa-solid fa-angle-down fa-2xs"></i></button>
     
@@ -212,6 +221,17 @@
                 </div> -->
             </div>
         </div>
+
+        <div class="main" id="info">
+            <div class="group">
+            <h1>info</h1>
+                <p class="groupText">Manga server is by <span class="bold"><a href="https://komga.org/">Komga</a></span>.</p>
+                <p class="groupText">Anime server is by <span class="bold"><a href="https://jellyfin.org/">Jellyfin</a></span>.</p>
+                <p class="groupText">Web hosted on Github, look at my shitty code <span class="bold"><a href="https://github.com/noahmfisher/eversince">here</a></span>.</p>
+                <p class="groupText">by noah lol</p>
+            </div>
+        </div>
+
         </div>
     </body>
 </html>

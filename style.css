@@ -19,12 +19,12 @@ body {
     width: 100%;
     overflow-x: hidden;
     
-    /* -webkit-animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
-    animation-fill-mode: both; */
+    animation-fill-mode: both;
 }
 
 html {
@@ -72,6 +72,8 @@ html {
     align-items: center; 
     justify-content: center;
 
+    color: black;
+
     width:100%;
     height: auto;
     cursor: pointer;
@@ -112,4 +114,5 @@ html {
 
 .wiki {
     margin-bottom: 2em;
+    color: black;
 }
